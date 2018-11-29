@@ -1,0 +1,8 @@
+Install imutils, ROS-kinetic, Opencv3.2.0, usb_cam bag/flea3 bag(two kinds of camera) 
+Use HOG describer + SVM classifier
+
+step1: roscore
+step2: python talker_detect.py 
+step3: python only_listener.py
+
+use without ROS: python detect_opencv.py
